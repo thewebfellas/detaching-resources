@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+gem "oswald", path: "../oswald"
+
+group :development do
+  gem "rspec"
+end
+
