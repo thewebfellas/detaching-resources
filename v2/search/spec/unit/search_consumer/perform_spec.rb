@@ -8,7 +8,7 @@ describe SearchConsumer, "#perform" do
 
   it "updates search results and publishes to queue" do
     payload = %q({"results":null})
-    search_results = %q({"results":"OHAI!"})
+    search_results = %q({"results":"It works!"})
     broker = double(:broker, publish: nil)
     consumer.stub(broker: broker)
 

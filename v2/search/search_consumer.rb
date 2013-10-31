@@ -9,7 +9,7 @@ class SearchConsumer
 
   def perform(payload)
     search = unserialize(payload)
-    search["results"] = "OHAI!"
+    search["results"] = "It works!"
 
     broker.publish(serialize(search), "dr.searches.results")
   end
