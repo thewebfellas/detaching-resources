@@ -21,7 +21,7 @@ module SearchService
   end
 
   def setup_broker
-    Oswald.setup("amqp://guest:guest@10.11.12.1:5672")
+    Oswald.setup("amqp://guest:guest@#{ENV["QUEUE_HOST"]}:5672")
     Oswald.broker.start
 
     Oswald.broker
