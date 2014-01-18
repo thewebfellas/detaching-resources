@@ -12,7 +12,7 @@ day.
 # Is it "Production Ready™"?
 
 HELL NO! Oswald is just a proof of concept. If you need something to use
-in production, I suggest seeing [Hutch](/gocardless/hutch), which Oswald
+in production, I suggest seeing [Hutch](https://github.com/gocardless/hutch), which Oswald
 was somewhat inspired by.
 
 # Contributing
